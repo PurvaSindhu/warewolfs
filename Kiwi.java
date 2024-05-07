@@ -13,6 +13,7 @@ class Kiwi{
 	}
 	
 	public void name(String ownerName){
+		this.total(5);
 		this.ownerName=ownerName;
 		System.out.println("name of the owner is=="+this.ownerName);
 	}
