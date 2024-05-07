@@ -4,4 +4,3 @@ class WhatsAppRunner{
 		whatApp.uses("video call them");
 	}
 }
-//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 

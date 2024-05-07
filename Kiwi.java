@@ -1,6 +1,6 @@
 class Kiwi{
 	
-	int numberOfkiwi=3;
+	int numberOfkiwi=2;
 	String ownerName="organic";
 	
 	public Kiwi(){

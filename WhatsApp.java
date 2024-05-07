@@ -1,5 +1,5 @@
 class WhatsApp{
-	int numberOfTexts=10;
+	int numberOfTexts=7;
 	String usesOfit="conneting with family";
 	
 	public WhatsApp(){

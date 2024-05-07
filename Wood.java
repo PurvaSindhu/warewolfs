@@ -1,5 +1,5 @@
 class Wood{
-	int numberOfTypes=10;
+	int numberOfTypes=25;
 	String nameOfTheWood="green play";
 	
 	public Wood(){
