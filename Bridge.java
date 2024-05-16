@@ -1,8 +1,8 @@
 class Bridge{
 	
-	public static String bridgeName;
-	public static int localBridgePresent=5;
-	public static double bridgeLength;
+	public static String bridgeName; //reference name declaration method
+	public static int localBridgePresent=5; //verbal method
+	public static double bridgeLength;//custom method
 	
 	public static void name(){
 		bridgeName="dibang bridge";

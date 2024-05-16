@@ -1,0 +1,60 @@
+what is java explain with aflow chart
+Java is a programing language it was developed by james gosling in usa at sun 
+microsystems. its also known as platforn independent. java consists of JDK(JAVA DEVELOPMENT KIT),
+(JAVA DEVELOPMENT KIT),JRE(java run time environment),AND JVM(java virtual machine).
+
+whatwhat is WORA,platform independent and .class file diagram
+WORA is write once run anywhere.
+*platform independent : once the byte code is obtained after compilation,by using this byte 
+cobe we can run the program in any operating systems like linex,mac and windows.
+*.class : the byte code is also known as .class files,the .class file is obtained 
+during the compilation time using the command javac.
+
+types of data types
+there are two types of data types
+primitive               non-premitive 
+int,char,byte           string 
+long,boolean,           arrays
+float,double            costom data types
+
+explain 10 key words
+int used to save numbers 
+char used to store a single character
+boolean :to cheak the given args true or false
+float :used to store the decimal upto 7decimal points
+double :used to store the decimal upto  15 decimal points
+string :used to save sequence of characters
+byte:used to store small size numbers -128 to 127
+arrays : used to store similar set of data types
+new: used to create instance of class
+public: access specifier
+
+explain switch case wit example
+public static void main(String [] args){
+		int numberOfClasses=5;
+		String nameOfClass="class 5";
+		switch numberOfClasses;
+		
+		case 1:nameOfClass="class1";
+		break;
+		case 2:nameOfClass="class2";
+		break;
+		case 3:nameOfClass="class3";
+		break;
+		case 4:nameOfClass="class4";
+		break;
+		case 5:nameOfClass="class5";
+		break;
+		
+		default: "no class";
+		
+		System.out.println("this is class"+nameOfClass);
+		}
+	}
+ 
+ this chaining
+ class reference name{
+    public int number;
+	public String name;
+	
+ }
