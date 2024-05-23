@@ -9,5 +9,5 @@ class BisibelleBath extends ThoorDall{
     public void foodPrice(){
 	 System.out.println("this is BisibelleBath class="+super.cost);
     } 
-	
+
 }

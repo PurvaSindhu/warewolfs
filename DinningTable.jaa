@@ -1,0 +1,13 @@
+class DinningTable{
+	
+	public int size=123;
+	public String material="teak wood";
+	
+	public void length(){
+		System.out.println("this is DinningTable class="+size);
+	}
+	public void madeOf(){
+		System.out.println("this is DinningTable class="+material);
+	}
+	
+}
