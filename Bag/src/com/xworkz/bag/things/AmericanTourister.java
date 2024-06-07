@@ -138,18 +138,18 @@ public class AmericanTourister {
 		final int prime = 7;
 		int results = 1;
 		results = results * prime + number;
-		results = results * prime + modal.hashCode();
+		results = results * prime +((modal==null) ? 0 : modal.hashCode());
 		results = results * prime + numberOfBrands;
 		results = results * prime + price;
 		results = results * prime + tax;
 		results = results * prime + gst;
 		results = results * prime + serviceTax;
 		results = results * prime + bagsSelledPerDay;
-		results = results * prime + brandName.hashCode();
+		results = results * prime +((brandName==null) ? 0 : brandName.hashCode());
 		results = results * prime + numberOfModals;
 		results = results * prime + logo;
-		results = results * prime + quality.hashCode();
-		results = results * prime + ambassidor.hashCode();
+		results = results * prime +((quality==null) ? 0 : quality.hashCode());
+		results = results * prime +((ambassidor==null) ? 0 : ambassidor.hashCode());
 		results = results * prime + inStock;
 		results = results * prime + contactInfo;
 

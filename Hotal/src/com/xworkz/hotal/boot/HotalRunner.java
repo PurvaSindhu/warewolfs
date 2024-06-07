@@ -33,6 +33,8 @@ public class HotalRunner {
 		System.out.println((restro1).equals(restro1));
 		System.out.println((restro2).equals(restro2));
 		System.out.println("hashCode");
+		System.out.println(restro1.hashCode());
+		System.out.println(restro2.hashCode());
 		System.out.println("equals to");
 		System.out.println(restro1.equals(restro1));
 		System.out.println(obj.equals(restro));

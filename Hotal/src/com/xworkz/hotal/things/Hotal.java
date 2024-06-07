@@ -142,21 +142,21 @@ public class Hotal {
 	public int hashCode() {
 		final int prime=2;
 		int results=1;
-		results= results*prime+numberOfDishes;
+		results= results*prime+ numberOfDishes;
 		results= results*prime+idly; 
-		results= results*prime+vada.hashCode();
-		results= results*prime+sambar.hashCode();
-		results= results*prime+tamatoRice.hashCode();
-		results= results*prime+palav.hashCode();
-		results= results*prime+dosa.hashCode();
-		results= results*prime+chutney.hashCode();
-		results= results*prime+service.hashCode();
+		results= results*prime+((vada==null) ? 0 : vada.hashCode());
+		results= results*prime+((sambar==null)? 0 :  sambar.hashCode());
+		results= results*prime+((tamatoRice==null) ? 0 : tamatoRice.hashCode());
+		results= results*prime+((palav==null) ? 0 : palav.hashCode());
+		results= results*prime+((dosa== null) ? 0 : dosa.hashCode());
+		results= results*prime+((chutney==null) ? 0 : chutney.hashCode());
+		results= results*prime+((service== null) ? 0 : service.hashCode());
 		results= results*prime+price;
 		results= results*prime+gst;
 		results= results*prime+seviceTax;
 		results= results*prime+rating;
-		results= results*prime+location.hashCode();
-		results= results*prime+hotalName.hashCode();
+		results= results*prime+((location==null) ? 0 : location.hashCode());
+		results= results*prime+((hotalName==null) ? 0 : hotalName.hashCode());
 		
 		return results;
 	}

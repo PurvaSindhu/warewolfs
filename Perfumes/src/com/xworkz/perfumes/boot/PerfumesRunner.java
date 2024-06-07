@@ -33,7 +33,8 @@ public class PerfumesRunner {
 		System.out.println((perfumes1).equals(perfumes1));
 		System.out.println((perfumes2).equals(perfumes2));
 		System.out.println("hashCode");
-		
+		System.out.println(perfumes1.hashCode());
+		System.out.println(perfumes2.hashCode());
 		System.out.println("equals to");
 		System.out.println(perfumes1.equals(perfumes2));
 		System.out.println(obj.equals(perfumes));
