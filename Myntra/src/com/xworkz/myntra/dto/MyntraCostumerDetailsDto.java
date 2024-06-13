@@ -2,16 +2,16 @@ package com.xworkz.myntra.dto;
 
 public class MyntraCostumerDetailsDto {
 
-	public int numberOfOrders;
-	public int shirtsOrdered;
-	public int ordersPerDay;
-	public String loginID;
-	public String email;
-	public long phoneNumber;
-	public int shoesOrdered;
-	public int otp;
-	public String cosmatics;
-	public String discounts;
+	private int numberOfOrders;
+	private int shirtsOrdered;
+	private int ordersPerDay;
+	private String loginID;
+	private String email;
+	private long phoneNumber;
+	private int shoesOrdered;
+	private int otp;
+	private String cosmatics;
+	private String discounts;
 
 	public MyntraCostumerDetailsDto() {
 		System.out.println("constructor");

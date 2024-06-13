@@ -2,16 +2,16 @@ package com.xworkz.novals.dto;
 
 public class NovalGenereDto {
 
-	public String fantasy;
-	public String horror;
-	public String mystery;
-	public String scienceFiction;
-	public String comedy;
-	public String nonFiction;
-	public String thriller;
-	public String historicalmystery;
-	public String romance;
-	public boolean EnjoyReading;
+	private String fantasy;
+	private String horror;
+	private String mystery;
+	private String scienceFiction;
+	private String comedy;
+	private String nonFiction;
+	private String thriller;
+	private String historicalmystery;
+	private String romance;
+	private boolean EnjoyReading;
 
 	public NovalGenereDto() {
 		System.out.println("this is a no args");
