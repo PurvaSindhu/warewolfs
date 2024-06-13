@@ -2,16 +2,16 @@ package com.xworkz.mobileShop.dto;
 
 public class BrandsDto {
 
-	public String iPhone;
-	public String samgung;
-	public String vivo;
-	public String realMe;
-	public String onePlus;
-	public int numberOfPhones;
-	public int profit;
-	public int price;
-	public boolean isStoreOpened;
-	public String storeName;
+	private String iPhone;
+	private String samgung;
+	private String vivo;
+	private String realMe;
+	private String onePlus;
+	private int numberOfPhones;
+	private int profit;
+	private int price;
+	private boolean isStoreOpened;
+	private String storeName;
 
 	public BrandsDto() {
 		System.out.println("this is constructor");
