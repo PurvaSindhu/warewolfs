@@ -1,0 +1,155 @@
+define Class?
+*class is a blueprint or a prototype which the object follows
+*class is a key word
+*class consist of States and behaviors
+*class consists of methods 
+*class consists of default constructor
+*class has no memory allocated
+*class is an example of inheritance and polymorphism
+*it consits of modifiers 
+*syntex of class is 
+  public Class Goat{
+  //body of the program
+  }
+  
+explain Jvm with diagram?
+*Jvm= java virtual machine
+Jvk plays an important rule in converting the source code into byte code 
+Jvk is an platform dependent because it depends on bytecode or .class files
+jvk consists of complilers (javac and java) which helps in compilation and execution of program
+jvm always looks for main method
+* public static void main(String [] args){
+}
+ 
+what is byte code explain with diagram?
+the intermidiate code obtainted by compilation of source code with the help of Jvm is called 
+byte code. the byte code or .class file is a platform independent programing 
+because once we obtain the byte code we can run the program in any operating systems like linex,
+windows etc
+
+explain a program with switch case?
+
+class Hotal{
+public static void main (String [] args){
+int numberOfPlates=3;
+String dishesName="dosa";
+
+switch(numberOfPlates){
+case 1:dishName="idly";
+break;
+
+case 2:dishName="rice";
+break;
+
+case 3:dishName="dosa";
+break;
+
+default : no more dishes;
+
+}
+System.out.println("the dish name is"+dishesName);
+
+}
+}
+
+explain the association with the help of interface?
+
+inferface is nothing but connecting two classes with the help of
+key word interface and implement it in other class using implements
+
+public interface Car{
+
+public void String carType();
+
+} 
+
+public Class Audi implements Car{
+
+public void String carType(){
+System.out.println("this is an audi car");
+}
+}
+
+public CarRunner(){
+public static void main(String [] args){
+Car car = new car();
+car.carType();
+}
+}
+
+explain polymorphism with example?
+
+polymorphism is meant by having same methods but different parameters
+its of two types complile time polymorphism and run time polymorphism
+also knowing as overloding and overriding.
+
+ex: Class Car{
+public int numberOfCars;
+public String carName;
+public String carColour;
+
+public Static void main(String [] args){
+public void car(int number){
+System.out.println("this is car");
+}
+public void car(int number,String carName){
+System.out.println("this is car");
+}
+public void car(int number,String carName,String carColour){
+System.out.println("this is car");
+}
+}
+}
+
+ex:  Class Bike{
+public void String bikeName;
+public void int number;
+
+public void bike(String bikeName){
+system.out.println("this is a bike class");
+}
+public void bikeNumber(int number){
+system.out.println("this is a bike class");
+}
+}
+
+* class Yamaha extends Bike{
+
+public void bike(String bikeName){
+system.out.println("this is a bike class");
+}
+public void bikeNumber(int number){
+system.out.println("this is a bike class");
+}
+}
+}
+
+* class BikeRunner{
+public static void main(String [] args){
+Yamaha yamaha= new Yamaha();
+yamaha.bike();
+yamaha.bikeNumber();
+}
+}
+
+explain encapsulation with example ?
+
+the hiding of data and allowing the axcess of data only through the methods is 
+called encapsulation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

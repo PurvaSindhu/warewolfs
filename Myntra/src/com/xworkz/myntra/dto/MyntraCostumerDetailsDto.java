@@ -19,7 +19,7 @@ public class MyntraCostumerDetailsDto {
 
 	public MyntraCostumerDetailsDto(int numberOfOrders, int shirtsOrdered, int ordersPerDay, String loginID, String email,
 			long phoneNumber,int shoesOrdered,int otp,String cosmatics,String discounts) {
-		super();
+		
 		this.numberOfOrders = numberOfOrders;
 		this.shirtsOrdered = shirtsOrdered;
 		this.ordersPerDay = ordersPerDay;
