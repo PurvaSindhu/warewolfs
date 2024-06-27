@@ -22,12 +22,16 @@ public class ShoesRunner {
 		shoes.add(dto1);
 		shoes.add(dto);
 		
+		Iterator <ShoesDto> iterator = shoes.iterator();
+		while (iterator.hasNext()) {
+			System.out.println("the details are=="+iterator.next());
+		}
 		
-		Iterator <ShoesDto> shoe = new Iterator<ShoesDto>() {
-			while (ShoesDto details : shoes) {
-				
-			}
-				
-		};
+		System.out.println(shoes.size());
+		shoes.remove(dto3);
+		System.out.println(shoes.size());
+		shoes.clear();
+		System.out.println(shoes.size());
+			
 }
 }
