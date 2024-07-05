@@ -32,8 +32,6 @@ public class DressRunner {
 		Double cgst2= 	Double.parseDouble(cgst);
 		System.out.println("price"+cgst2);
 		
-		String alpha="character";
-		Character alpha2=Character.valueOf(64);
 	}
 
 }
