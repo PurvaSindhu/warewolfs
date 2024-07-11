@@ -3,10 +3,8 @@ package com.xworkz.clothes.bridge;
 
 
 @FunctionalInterface
-public class ClothsInterface {
+public interface ClothsInterface {
 	
-	void dress(String styles) {
-		
-	}
+	void dress(int i , int j);
 
 }
