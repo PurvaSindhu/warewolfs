@@ -104,20 +104,21 @@ public class WireDto {
 		return true;
 	}
 	
-	Comparator<WireDto> wire = new Comparator<WireDto>() {
+	//Comparator<WireDto> wire = new Comparator<WireDto>() {
 		
-		@Override
-		public int compare(WireDto i, WireDto j) {
-			if (i.getDurability() > j.getDurability()) {
-				return 1;
-			}else if (i.getDurability() < j.getDurability()) {
-				return 0;
-			}
-			return -1;
-		}
-	};
+//		@Override
+//		public int compare(WireDto i, WireDto j) {
+//			if (i.getDurability() > j.getDurability()) {
+//				return 1;
+//			}else if (i.getDurability() < j.getDurability()) {
+//				return 0;
+//			}
+//			return -1;
+//		}
+//	};
+//	
 	
-	
+		
 }
 
 

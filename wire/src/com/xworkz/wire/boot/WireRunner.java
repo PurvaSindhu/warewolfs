@@ -1,39 +1,28 @@
 package com.xworkz.wire.boot;
 
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import com.xworkz.wire.dto.WireDto;
 
-public class WireRunner implements  Comparator<WireDto> {
+public class WireRunner {
 	
 	
 	public static void main(String[] args) {
+		List <WireDto> list = new ArrayList<WireDto>();
+		list.add(new WireDto("finolex","good",5,1));
+		list.add(new WireDto("anchor","good",5,1));
+		list.add(new WireDto("polycab","good",5,1));
+		list.add(new WireDto("havels","good",5,1));
+		list.add(new WireDto("asian","good",5,1));
 		
-		WireDto dto = new WireDto(null, null, 0, 0);
-		List <WireDto> list = Arrays.asList(new WireDto("finolex","good",5,2),new WireDto("polycab","good",10,2),
-				new WireDto("havells","good",3,2),
-				new WireDto("sterlite","good",5,1),
-				new WireDto("anchor","good",5,2));
-		list.stream().sorted();
+		List<WireDto> ref1 = list.stream().sorted(Comparator.comparingInt(WireDto ->  WireDto.getDurability() )).collect(Collectors.toList());
 		
-		System.out.println("list=="+list);
+		System.out.println("the details are=="+ref1);
 		
+	
 	}
-
-	@Override
-	public int compare(WireDto i, WireDto j) {
-		if (i.getDurability() > j.getDurability()) {
-			return 1;
-		}else if (i.getDurability() < j.getDurability()) {
-			return 0;
-		}
-		
-		return -1;
-	}
-
 
 }
